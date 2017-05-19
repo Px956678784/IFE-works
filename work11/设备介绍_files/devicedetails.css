@@ -161,8 +161,6 @@ tr {
 }
 
 .background{
-    background:url("img/background.jpg");
-    background-repeat:no-repeat;
     padding: 10px;
 }
 
