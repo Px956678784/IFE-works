@@ -1,0 +1,27 @@
+$blue: #a3d5d3;
+$width: 30%;
+$white: #FFFFF0;
+#left {
+  position:absolute; 
+  top:0; 
+  left:0; 
+  width: $width;
+  background-color: $blue;
+  height: 100%;
+}
+#photo {
+  width: 200px;
+  background-image: url(https://p1.gexing.com/G1/M00/29/92/rBACJ1SUHUmBudlcAAAcvprwXAM493_200x200_3.jpg?recache=20131108);
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+}
+.left_word{
+   text-align: center;
+}
+#right{
+  margin-left: 30%;
+  height: 100%;
+  padding: 20px;  
+}
