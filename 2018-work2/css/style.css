@@ -1,0 +1,33 @@
+#left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  background-color: #a3d5d3;
+  height: 100%;
+}
+
+#photo {
+  width: 200px;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525335361&di=96b685176c0da5407659cb8118eb8802&imgtype=jpg&er=1&src=http%3A%2F%2Fimg3.a0bi.com%2Fupload%2Fttq%2F20140804%2F1407147940890.jpg);
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.left_word {
+  text-align: center;
+  line-height: 40px;
+}
+
+#right {
+  margin-left: 30%;
+  height: 100%;
+  padding: 20px;
+}
+
+#right > h2 {
+  color: #6495ED;
+  text-shadow: 5px 5px 5px #B0C4DE;
+}
