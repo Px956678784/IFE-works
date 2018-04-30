@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+}
+
+#whole {
+  background-size: 100% 100%;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525063332454&di=320c03cc31efaf604084299b3973f8a2&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20161205%2F234f4949ba044e4d9193b4c1bd88bb81_th.jpeg);
+  height: 100%;
+  width: 100%;
+}
+
+#guide {
+  height: 10%;
+  width: 2000px;
+  padding-left: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.item {
+  position: relative;
+  height: 20%;
+  border: 1px solid white;
+}
+
+.item_introduction {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+}
+
+.item_content {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.item_content_text {
+  margin-left: 20px;
+  line-height: 10px;
+}
